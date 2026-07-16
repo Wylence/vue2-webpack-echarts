@@ -1,0 +1,28 @@
+{
+  "name": "vue2-exhibition-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "webpack serve --config webpack.config.js --mode development",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "dependencies": {
+    "echarts": "5.5.1",
+    "vue": "2.7.16"
+  },
+  "devDependencies": {
+    "@babel/core": "7.24.9",
+    "@babel/preset-env": "7.24.8",
+    "babel-loader": "8.3.0",
+    "css-loader": "6.11.0",
+    "html-webpack-plugin": "5.6.0",
+    "less": "4.2.0",
+    "less-loader": "11.1.4",
+    "style-loader": "3.3.4",
+    "vue-loader": "15.11.1",
+    "vue-template-compiler": "2.7.16",
+    "webpack": "5.93.0",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "5.0.4"
+  }
+}
